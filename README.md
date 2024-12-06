@@ -15,7 +15,7 @@
  `node -v` hoặc `npm -v`
 
 #### a.2. Clone dự án từ github về
-- `git clone <url_dự_án>`
+- `git clone https://github.com/MT16204/HTT_Support`
 
 #### a.3. Cài đặt các thư viện cần thiêt
 - Di chuyển đến thư mục của dự án sau khi clone về: `cd <thư_mục_dự_án>`
