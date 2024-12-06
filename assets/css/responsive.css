@@ -1,0 +1,264 @@
+/* 1120px Screen */
+@media (min-width: 1120px) {
+  .chatbot {
+    width: 400px; 
+    bottom: 50px; 
+    right: 40px; 
+  }
+
+  .chat-input textarea {
+    font-size: 1rem;
+  }
+
+  .chatbox .chat p {
+    font-size: 1rem;
+  }
+}
+
+/* 992px Screen */
+@media (max-width: 992px) {
+
+  .header_section {
+    padding-top: 50px; /* Giảm padding-top để tạo không gian cho menu */
+    padding-bottom: 100px; /* Tùy chỉnh padding-bottom nếu cần */  }
+
+  #navbarSupportedContent {
+    margin-top: 25px;
+  }
+
+  .hero_section {
+
+    padding-top: 75px;
+    padding-bottom: 150px;
+
+  }
+
+  .about_section .img-box {
+    margin: 0 5%;
+  }
+
+  .about_section .detail-box {
+    margin-right: 5%;
+  }
+
+  .service_section .service_container .box {
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 48%;
+  }
+
+  .about_section .img_container .img-box.b2 {
+    margin-top: -5%;
+  }
+
+}
+
+/* 768px Screen */
+@media (max-width: 768px) {
+  .hero_section .col-md-6{
+    margin-top: 3rem;
+  }
+
+  .hero_section .detail_box {
+    text-align: center;
+  }
+
+  .hero_section .img_content {
+    margin-top: 55px;
+  }
+
+  .contact_section .map_container {
+    margin-top: 45px;
+  }
+
+  .info_section .info_contact a {
+    margin-bottom: 15px;
+  }
+
+  .info_section .info_social {
+    justify-content: center;
+  }
+
+  .service_section .service_container .box {
+    flex-basis: 98%;
+  }
+
+  .contact_section form {
+    padding-right: 0;
+  }
+
+  .info_section .info_contact a {
+    text-align: center;
+  }
+  .chatbot {
+    width: 300px;  
+    bottom: 80px;
+    right: 10px;
+  }
+
+  .chat-input {
+      padding: 5px 10px;
+  }
+
+  .chat-input textarea {
+      font-size: 0.85rem;
+  }
+
+  .chatbox .chat p {
+      font-size: 0.85rem;
+  }
+}
+
+/* 576px Screen */
+@media (max-width: 576px) {
+  .about_section .img_container .img-box.b1 {
+    width: 80%;
+  }
+
+  .about_section .img_container .img-box.b2 {
+    width: 55%;
+  }
+
+  .info_section .info_form form {
+    flex-direction: column;
+  }
+
+  .info_section .info_form form input {
+    width: 100%;
+  }
+
+  .info_section .info_form form button {
+    margin-top: 15px;
+    padding: 10px 40px;
+  }
+
+  .hero_section .detail_box {
+    text-align: center;
+    padding: 0 10px; 
+  }
+
+  .hero_section .img_content {
+    margin-top: 20px; 
+  }
+
+  .chatbot {
+    width: 80%;  
+    bottom: 40px; 
+    left: 10%; 
+    right: unset;
+  }
+
+  .chat-input textarea {
+    font-size: 0.75rem;
+  }
+
+  .chatbox .chat p {
+    font-size: 0.75rem;
+  }
+}
+
+/* 480px Screen */
+@media (max-width: 480px) {
+  .hero_section .detail_box {
+    text-align: center;
+    padding: 0 5px; 
+  }
+
+  .hero_section .img_content {
+    margin-top: 15px; 
+  }
+
+  .chatbot {
+    width: 90%; 
+    max-width: 350px;
+    bottom: 20px; 
+    left: 5%; 
+    right: unset;
+  }
+
+  .chat-input textarea {
+    font-size: 0.7rem;
+  }
+
+  .chatbox .chat p {
+    font-size: 0.7rem;
+  }
+}
+
+/* 375px Screen */
+@media (max-width: 375px) {
+  .chatbot {
+    width: 95%; /* Thu nhỏ thêm một chút cho các màn hình rất nhỏ */
+    max-width: 320px; /* Đặt tối đa để tránh tràn */
+    bottom: 20px;
+    left: 2.5%; /* Cân đối vị trí giữa trái và phải */
+    right: unset;
+  }
+
+  .chat-input textarea {
+    font-size: 0.65rem; /* Thu nhỏ hơn nữa cho nội dung hiển thị đẹp */
+  }
+
+  .chatbox .chat p {
+    font-size: 0.65rem;
+  }
+}
+
+/* 320px Screen */
+@media (max-width: 320px) {
+  .chatbot {
+    width: 100%; 
+    bottom: 10px;
+    left: 0; 
+    right: 0;
+  }
+
+  .chat-input textarea {
+    font-size: 0.6rem; 
+  }
+
+  .chatbox .chat p {
+    font-size: 0.6rem;
+  }
+}
+
+/* 319px Screen */
+@media (max-width: 319px) {
+  .chatbot {
+    width: 100%; 
+    max-width: 280px;
+    bottom: 10px; 
+    left: 0; 
+    right: 0;
+  }
+
+  .chat-input textarea {
+    font-size: 0.55rem;
+    padding: 3px 5px; 
+  }
+
+  .chatbox .chat p {
+    font-size: 0.55rem;
+  }
+}
+
+/* 240px Screen */
+@media (max-width: 240px) {
+  .chatbot {
+    width: 100%; 
+    max-width: 200px;
+    bottom: 5px; 
+    left: 0; 
+    right: 0;
+  }
+
+  .chat-input textarea {
+    font-size: 0.5rem;
+    padding: 2px 3px; 
+  }
+
+  .chatbox .chat p {
+    font-size: 0.5rem;
+  }
+}
+
+
