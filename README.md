@@ -1,11 +1,14 @@
-# Hướng Dẫn Cài Đặt và Chạy Dự Án
+# HTT Support
 
-## 1. Thông Tin Nhóm
-- **Hoàng Kim Hùng:** Xây dựng code xử lý yêu cầu từ khách hàng gửi đến chatbot (35%)
-- **Phạm Minh Tuấn:** Thiết kế và xây dựng giao diện trang web và chatbot (34%)
-- **Lê Trung Tiến:** Kiểm thử và xây dựng code xử lý API cho chatbot (31%)
+## 1. Giới thiệu 
+- Đây là môt dự án xây dựng website hỗ trợ khách hàng về các sự cố về phần mềm và phần cứng, có tích hợp thêm tính năng chatbot giúp người dùng có thể giải đáp thắc mắc ngay tức thì.
 
-## 2. Hướng Dẫn Chạy Source Code
+## 2. Thông Tin Nhóm
+- **Hoàng Kim Hùng** 
+- **Phạm Minh Tuấn** 
+- **Lê Trung Tiến** 
+
+## 3. Hướng Dẫn Chạy Source Code
 
 ### a. Cài Đặt Các Thư Viện Cần Thiết
 
