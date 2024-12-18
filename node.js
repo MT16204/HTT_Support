@@ -37,8 +37,10 @@ app.post("/chatbot", async (req, res) => {
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo", // Hoặc "gpt-4"
-        messages: [{ role: "user", content: message }],
-        max_tokens: 1000,
+        messages: [
+        { role: "system", content: "Bạn là một chatbot chuyên hỗ trợ về phần mềm và phần cứng cho người dùng. Hãy tập trung vào chuyên môn và trả về những câu trả lời thật chi tiết cho các vấn đề của khách hàng." },
+        { role: "user", content: message }],
+        max_tokens: 3000,
       }),
     });
 
